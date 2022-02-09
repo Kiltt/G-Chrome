@@ -5,11 +5,10 @@ let h_unityfiles_url = "https://images.habbo.com/habbo-webgl-clients/*/WebGL/hab
 let g_unityfiles_port = 9089;
 
 let redirects = {
-    "Build/habbo2020-global-prod.data.unityweb": "/data",
-    "Build/habbo2020-global-prod.wasm.code.unityweb": "/wasm/code",
-    "Build/habbo2020-global-prod.wasm.framework.unityweb": "/wasm/framework",
-    "Build/habbo2020-global-prod.json": "/prod",
-    "Build/UnityLoader.js": "/unityloader",
+    "Build/habbo2020-global-prod.data.gz": "/data",
+    "Build/habbo2020-global-prod.wasm.gz": "/wasm",
+    "Build/habbo2020-global-prod.framework.js.gz": "/framework",
+    "Build/habbo2020-global-prod.loader.js": "/loader",
     "assets/images/progressLogo.Dark.png": "/logo",
     "StreamingAssets/Version.txt": "/version"
 };
