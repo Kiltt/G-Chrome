@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "G-Chrome",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "content_scripts": [
     {
       "matches": [
@@ -14,6 +14,7 @@
         "https://www.habbo.com.br/*",
         "https://www.habbo.com/*",
         "https://www.habbo.com.tr/*",
+        "https://www.habbox.game/*",
 
         "https://sandbox.habbo.com/*"
       ],
@@ -44,6 +45,7 @@
     "https://www.habbo.com.br/*",
     "https://www.habbo.com/*",
     "https://www.habbo.com.tr/*",
+    "https://www.habbox.game/*",
     "https://sandbox.habbo.com/*",
     "https://images.habbo.com/*"
   ],
